@@ -1,0 +1,12 @@
+# http://askubuntu.com/questions/28583/how-do-i-add-a-system-wide-menu-item-to-the-applications-menu
+# https://developer.gnome.org/integration-guide/stable/desktop-files.html.en
+# http://standards.freedesktop.org/desktop-entry-spec/latest/
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=Elexis3
+Comment=Elexis3 (OpenSource)
+Exec=/usr/local/Elexis3/Elexis3 --use-config=elexis_3_os -data $HOME/elexis/workspace
+Icon=application.png
+Terminal=false
+Categories=Application;MedicalSoftware;Office
