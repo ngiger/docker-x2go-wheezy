@@ -1,10 +1,10 @@
 #!/bin/bash -v
 # Installs the snapshot of the Elexis3 application including some often used features
-# into /usr/share/Elexis3
+# into /usr/local/Elexis3
 wget --quiet http://mirror.switch.ch/eclipse/tools/buckminster/products/director_latest.zip
 unzip -uq director_latest.zip
 director/director \
--destination /usr/share/Elexis3 \
+-destination /usr/local/Elexis3 \
 -application org.eclipse.equinox.p2.director \
 -application org.eclipse.equinox.p2.director \
 -repository http://download.elexis.info/elexis.3.core/snapshot/ \
